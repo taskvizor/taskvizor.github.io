@@ -1,0 +1,61 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: url(../img/bg_img_2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+}
+.root {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+}
+.root header {
+    text-align: center;
+    padding: 15px 0;
+}
+h2 {
+    font-family: "NautilusPompiliusRegular";
+    color: #54728c;
+    margin-top: 0;
+}
+h2:hover {
+    color: #acacac;
+}
+.root .content {
+    /*text-align: center;*/
+    padding: 15px;
+}
+.event {
+    margin: 10px 0;
+}
+.event-title {
+    margin: 15px 0;
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: bold;
+}
+.event-date {
+    font-size: .8em;
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+.root .content iframe {
+    max-width: 100%;
+}
+iframe {
+    text-align: center;
+    margin: 0 25%;
+}
